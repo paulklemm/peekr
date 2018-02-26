@@ -270,6 +270,12 @@ Source: CRAN
 Version: 0.4.8-1
 Hash: 6ad605ba7b4b476d84be6632393f5765
 
+Package: pander
+Source: CRAN
+Version: 0.6.1
+Hash: cf96fcb1150e846332a1b2a2308cac4d
+Requires: Rcpp, digest
+
 Package: pillar
 Source: CRAN
 Version: 1.1.0
@@ -387,6 +393,13 @@ Version: 0.3-1
 Hash: 367275e3dcdd208339e131c7a41bec56
 Requires: stringr
 
+Package: skimr
+Source: CRAN
+Version: 1.0.1
+Hash: 8d31b1004f59e03dd10dec43ea98f5df
+Requires: dplyr, knitr, magrittr, pander, purrr, rlang, stringr,
+    tibble, tidyr, tidyselect
+
 Package: stringi
 Source: CRAN
 Version: 1.1.6
@@ -441,6 +454,12 @@ Package: viridisLite
 Source: CRAN
 Version: 0.3.0
 Hash: 78bb072c4f9e729a283d4c40ec93f9c6
+
+Package: visdat
+Source: CRAN
+Version: 0.1.0
+Hash: 26b42997fd00e4fe698d491d2e10c0c9
+Requires: dplyr, ggplot2, magrittr, purrr, tidyr
 
 Package: whisker
 Source: CRAN
