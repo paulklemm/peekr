@@ -1,12 +1,11 @@
-Package: xplr
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Package: peekr
+Version: 0.0.0.9000
+Title: Peekr Glimpses Into Data and Provides Both Overview and Quality Checks
+Description: What the package does (one paragraph).
+Authors@R: person("Paul", "Klemm", , "blorp@posteo.org", c("aut", "cre"))
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+ByteCompile: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
